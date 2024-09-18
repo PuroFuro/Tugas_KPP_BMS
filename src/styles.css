@@ -45,7 +45,7 @@ body {
 }
 
 .circle-large-red {
-  width: 17.5vw; /* Responsive size for large red circle */
+  width: 17.5vw; 
   height: 17.5vw;
   left: 56.7vw;
   top: 32.5vh;
@@ -124,7 +124,7 @@ body {
 /* Text */
 .title {
   position: absolute;
-  font-size: 5vw; /* Responsive font size */
+  font-size: 5vw; 
   font-weight: 700;
   left: 13vw;
   top: 57vh;
@@ -144,4 +144,21 @@ body {
   font-size: 1.2vw;
   left: 13vw;
   top: 73.6vh;
+}
+
+/* Gaya untuk menu dan popup */
+#menuButton {
+  transition: background-color 0.3s ease;
+}
+
+#menuButton:hover {
+  background-color: #4A5568; /* Darker shade of gray */
+}
+
+#popupMenu a {
+  transition: background-color 0.3s ease;
+}
+
+#popupMenu a:hover {
+  background-color: #2D3748; /* Darker shade of gray on hover */
 }

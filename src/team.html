@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet The Team</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="menu/scripts.js"></script>
+
+    <!-- Menu button -->
+        <div class="relative">
+            <button id="menuButton" class="absolute top-5 left-5 text-white bg-gray-800 px-4 py-2 rounded-md">
+                Menu
+            </button>
+    
+    <!-- Popup menu -->
+            <div id="popupMenu" class="hidden absolute top-16 left-5 bg-gray-700 rounded-md shadow-lg">
+                <a href="team.html" class="block px-4 py-2 text-white hover:bg-gray-600">Members</a>
+                <a href="creations.html" class="block px-4 py-2 text-white hover:bg-gray-600">Creation</a>
+                <a href="extra.html" class="block px-4 py-2 text-white hover:bg-gray-600">Extra</a>
+            </div>
+        </div>
 </head>
 <body class="bg-[#1F1F1F] text-white flex flex-col min-h-screen">
     <!-- Menu Section (Top) -->
     <div class="w-full py-4 text-white flex justify-between items-center px-12">
         <!-- Pop-up Menu (Top Left) -->
         <div class="flex justify-start w-1/3">
-            <p class="text-lg">Menu =</p>
         </div>
 
         <!-- Meet the Team (Center) -->
